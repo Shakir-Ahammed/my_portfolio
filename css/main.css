@@ -3048,10 +3048,10 @@ form textarea:required:valid {
 }
 
 .logo__caption {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 .logo__caption p {
-  font: normal 700 2.8rem/1.06 var(--_font-accent);
+  font: normal 700 2.2rem/1.06 var(--_font-accent);
   color: var(--t-bright);
 }
 @media only screen and (min-width: 1400px) {
