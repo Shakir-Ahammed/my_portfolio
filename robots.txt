@@ -1,0 +1,27 @@
+# Robots.txt for Md. Shakir Ahmed Portfolio
+# https://shakirahmed.dev/
+
+User-agent: *
+Allow: /
+
+# Important files
+Allow: /index.html
+Allow: /sitemap.xml
+Allow: /file/shuvo cv.pdf
+
+# CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+Allow: /img/
+
+# Disallow unnecessary files
+Disallow: /sass/
+Disallow: *.sass
+Disallow: /css/loaders/
+
+# Sitemap location
+Sitemap: https://shakirahmed.dev/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
