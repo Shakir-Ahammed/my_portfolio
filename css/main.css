@@ -44,8 +44,52 @@
 /* ------------------------------------------------*/
 /* Fonts Start */
 /* ------------------------------------------------*/
-/* Syne font */
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+/* Syne font - Local Font Faces */
+
+/* Syne Regular (400) */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Syne/Syne-Regular.ttf') format('truetype');
+}
+
+/* Syne Medium (500) */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/Syne/Syne-Medium.ttf') format('truetype');
+}
+
+/* Syne SemiBold (600) */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Syne/Syne-SemiBold.ttf') format('truetype');
+}
+
+/* Syne Bold (700) */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Syne/Syne-Bold.ttf') format('truetype');
+}
+
+/* Syne ExtraBold (800) */
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/Syne/Syne-ExtraBold.ttf') format('truetype');
+}
 /* ------------------------------------------------*/
 /* Fonts End */
 /* ------------------------------------------------*/
@@ -64,8 +108,8 @@
 /* ------------------------------------------------*/
 :root {
   --_size: 1.6rem;
-  --_font-default: "Syne", sans-serif;
-  --_font-accent: "Syne", sans-serif;
+  --_font-default: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --_font-accent: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --_radius-s: 1.5rem;
   --_radius-m: 2.2rem;
   --_radius-l: 3rem;
